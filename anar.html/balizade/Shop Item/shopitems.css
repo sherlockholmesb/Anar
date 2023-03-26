@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    display: flex;
+    padding-top: 19px;
+    background-color: rgb(240, 226, 226);
+    justify-content: space-around;
+    padding-left: ;
+}
+ul li{
+    display: inline-block;
+
+} 
+ul a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 15px;
+}
+.metn{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+
+}
+.img{
+    width: 200;
+    height: 100;
+}
+.metn .img,.metn1{
+     padding: 18px;
+}
+.buton button{
+    width: 130px;
+    height: 38px;
+    background-color: white;
+    border-radius: 6px;
+
+}
+.buton :hover{
+    background-color: black;
+    color: white;
+}
+.item1{
+    display: flex;
+    
+}
+.image img{
+    padding: 20px;
+}
+.metn2{
+    text-align: center;
+
+}
+.image .buton button{
+    margin-top:20px ;
+}
+.item{
+    display: flex;
+}
+.input .input2{
+    width: 39px;
+    height: 36px;
+}
+.item .input,.item .buton{
+    padding: 10px;
+}
+.metn1 h1{
+    font-size: 50px;
+
+}
+.metn1 .yazi,p{
+    font-size: 25px;
+    padding-top: 20px;
+
+}
+.metn1{
+    padding-top: 150px;
+}
+.sherlock{
+    font-size: 21px;
+}
+.sherlock,ul li a{
+    padding: 10px;
+}
+.input .input2{
+    text-align: center;
+}
