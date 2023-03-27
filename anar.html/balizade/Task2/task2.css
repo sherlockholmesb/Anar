@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+.menu{
+    display: flex;
+    padding-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 8px 4px 7px rgb(248, 238, 238);
+    justify-content: space-around;
+    padding-left: ;
+    display: ;
+}
+.sb{
+    display: flex;
+    display: contents;
+    font-size: 21px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+    text-shadow: 1px 1px 1px;
+
+}
+.buton{
+    font-size: 18px;
+    font-family: 'Courier New', Courier,; 
+    display: inline-flex;
+    text-decoration: none;
+
+}
+.buton button{
+    font-size: 14px;
+    background-color: rgb(255, 255, 250);
+    border-radius: 6px;
+    
+}
+.buton button i :hover{
+    background-color: black;
+    color: white;
+}
+.text1{
+    margin-top: 13px;
+    margin-left: 100px;
+   margin: px;
+   padding: 60px;
+}
+.text1 h1{
+    font-size: 85px;
+    text-shadow: 2px 2px 3px;
+}
+.text1 p{
+    padding-top: px;
+    font-size: 20px;
+
+}
+.text1 button{
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 4px;
+    color: white;
+    font-family: fantasy
+    justify-content: space-around 10px;
+    background-color: black;
+    height: 55px;
+}
+.mor{
+    margin-left: 500px;
+    font-size: 20px;
+    background-color: blueviolet;
+    margin: 1;
+
+}
+.mor img{
+    
+}
+
+
+
