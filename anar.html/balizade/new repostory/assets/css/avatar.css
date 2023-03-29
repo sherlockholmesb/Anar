@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: violet;
+}
+
+.all .image {
+
+    display: flex;
+    align-items: center;
+    margin-left: 370px;
+}
+
+.all .icon {
+    margin-left: 550px;
+    font-size: 27px;
+    color: white;
+}
+
+.all h1 {
+    margin-left: 470px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.all p {
+    margin-left: 467px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.icon .deneme {
+    display: flex;
+    display: inline-block;
+    width: 60px;
+    height: 2.5px;
+    background-color: white;
+    justify-content: ;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
