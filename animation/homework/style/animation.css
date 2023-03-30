@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.theconversation.com/files/223749/original/file-20180619-126537-5l632j.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip);
+    
+    
+    
+}
+.yer{
+    width: 150px;
+    height: 60px;
+    
+}
+.yer img{
+    max-width: 100%;
+    margin-left: 100px;
+    margin-top: 190px;
+    animation-name: yer ;
+    animation-duration: 3s;
+    
+    position: relative;
+
+}
+#yer{animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
+@keyframes yer {
+     /* from{left: 0px;}
+    to{left: 900px;}  */
+   0%{transform: rotate(40deg); left:0;}
+    10%{transform: rotate(40deg); left: 0;}
+    80%{transform: rotate(180deg);left: 900px;}
+    100%{transform: rotate(360deg); left: 0px;}
+}
