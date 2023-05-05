@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+   padding-top: 130px;
+}
+/* #nan{
+    margin-left: 500px;
+    margin-top: 400px;
+    color: red;
+    font-size: 24px;
+    font-family:   sans-serif;
+} */
+/* #text{
+    width: 80%;
+    width: 23px;
+   font-size: 17px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tech{
+    color: skyblue;
+   font-size: 24px;
+    font-family:  sans-serif;
+} */
+.all{
+    background-color: rgb(253, 253, 253);
+    width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    height: 250px;
+    box-shadow: 2px 2px 2px 2px rgb(248, 248, 248);
+    transition: 0.5s;
+}
+
+.all:hover {
+   box-shadow: 1px 2px 8px 2px rgb(243, 220, 220);
+    width: 290px;
+    height: 260px;
+}
+/* .na {
+    width: 80%;
+    margin: 2%;
+    padding: 32px;
+    border-radius: 5px;
+    height: 200px;
+  
+} */
+
+.code{
+     margin-top: 15px ;
+     width: 230px;
+     height: 35px;
+     padding: 5px;
+     display: block;
+     border-radius: 5px;
+     border-inline: 0;
+     border-width: 0;
+     transition: 0.5s;
+}
+.name{
+   width: 230px;
+   height: 35px;
+   padding: 5px;
+   display: block;
+   margin-top: 5px;
+   border-radius: 5px;
+   border-radius: 5px;
+   transition: 0.5s;
+ border-width: 0;
+
+}
+.name:hover{
+    box-shadow: 1px 2px 8px 2px rgb(231, 214, 214);
+}
+
+
+.code:hover{
+    box-shadow: 1px 2px 8px 2px rgb(231, 214, 214);;
+}
+ .btn{
+    background-color: rgb(235, 134, 134);
+    width: 135px;
+    padding: 6px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-inline: 0;
+    transition: 0.6s;
+    border-width: 0;
+    
+    /* margin-bottom: 80px;
+    
+    margin-left: 600px; */
+ }
+ .btn:hover{
+    background-color: rgb(207, 72, 72);
+    color: white;
+    box-shadow: 1px 2px 8px 2px rgb(173, 112, 112);;
+    width: 140px;
+ }
+.nantech{
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.nantech:hover{
+    font-size: 40px ;
+    box-shadow: 2px 2px 8px 2px rgb(209, 105, 105) ;
+}
+#nan{
+    color: red;
+}
+#tech{
+    color: aqua;
+}
+.son{
+    text-align: center;
+    margin-top: 20px;
+}
+.center{
+    margin-top: 40px;
+}
+
+
+
+
+.image{
+     position: absolute;
+     opacity: .2px;
+}
+
+.shifre{
+    position: relative;
+}
+.shifre i{
+    position: absolute;
+    top: 10px;
+    right: 3px;
+}
