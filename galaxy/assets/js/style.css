@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    position: relative;
+    background-color: blueviolet;
+    width: 250px;
+    height: 655px;
+    overflow: hidden;
+}
+.daire{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: brown;
+   
+}
