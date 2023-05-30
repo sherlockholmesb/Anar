@@ -1,0 +1,108 @@
+.row1 {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    width: 100%;
+    font-size: small;
+    position: fixed top;
+    margin-bottom: 20px;
+    .bar1 {
+        display: flex;
+        list-style: none;
+        transform: translateX(-125px);
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .bar2 {
+        list-style: none;
+        display: flex;
+        justify-self: baseline;
+        letter-spacing: 10px;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+
+    .bar2:hover {
+        color: red;
+        transform: rotateX('-150deg');
+    }
+}
+
+.row2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    margin-top: 23px;
+    list-style: none;
+     .menu{
+        list-style: none;
+        display: flex;
+        margin-right: 75px;
+        font-size: 20px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        #blog{
+           
+        }
+        
+     } 
+     .menu:hover{
+
+     }   
+     .bar3{
+        list-style: none;
+        
+     }
+}
+
+
+.card{
+    display: flex !important;
+    
+}
+.all{
+    display: flex !important;
+    width: 50px !important;
+    border: solid gray;
+    img{
+        width: 80% !important;
+        margin: 20% !important;
+    }
+}
+.pages2{
+    background-color: blue;
+    display: flex;
+    margin-top: 20px;
+}
+.textpages{
+    background-color: rgb(47, 99, 158);
+    
+}
+image5{
+    width: 17px !important;
+}
+.card2{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 60px;
+   h3{
+    background-color: rgb(223, 203, 203);
+    border: solid rgb(255, 255, 255);
+    position: absolute;
+    transform: translateX(25px);
+    transform: translateY(-60px);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+   }
+}
+.pages3{
+    display: flex;
+    width: calc(100%/4);
+    .TOP{
+        margin-bottom: 70px;
+    }
+}
